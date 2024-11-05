@@ -1,0 +1,37 @@
+.clase1{
+    text-decoration: underline;
+}
+
+.clase2{
+    
+    
+    color: rgba(174, 34, 52, 0.87);
+    text-align: right;
+    
+
+}
+.clase3{
+    display: flex;
+    gap: 96px;
+    background-image: url("imagenes/hero.jpg");
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 100px;
+    padding: 96px;
+    }
+.clase4{
+    color: rgb(212, 140, 46);
+    text-align: center;
+}
+.clase5{
+    text-align: center;
+    text-rendering: optimizeLegibility;
+}
+
+footer{
+    text-align: center;
+    color: black;
+
+
+}
