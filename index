@@ -1,41 +1,59 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="es-mx">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escuela de codigo</title>
+    
     <style>
-        nav{background-color: white;}
+        nav{background-image: url ("imagenes/hero-vector.svg"); }
     </style>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    
-    <section>
+<header>
+    <section class="clase1">
 <main><img src="imagenes/logo.svg" alt="Gobierno de la ciudad de méxico"></main>
     </section>
 
-<section>
+<section class="clase2">
+    <nav>
     <p>
-        <span>Presidente</span>   
-        <span>negocios</span>    
-        <span>visitantes</span>
-        <span>gobierno</span>  
+        
+        <a href="#"><span>Residentes</span></a>
+        <a href="#"><span>Negocios</span></a>
+        <a href="#"><span>Visitantes</span></a>
+        <a href="#"><span>Gobierno</span></a>
+         
     </p>
+    </nav>
     </section>
+</header>
 
-    <section>
+    <article class="clase3">
+    <h1>
+Aprende a programar
+en las
+escuelas de código
+de la cdmx
+    </article>
+</h1>
+<section class="clase4">
 
-        imagen
+    <h2><p>¿Quién se puede inscribir?</p></h2>
+</section>
+<section class="clase5">
+    <h3>
+        <p>Cualquier persona que quiera aprender a programar código y cuente con 4-8 horas disponibles a la semana.</p>
+    </h3>
+</section> 
 
-    </section>
-
-    <section>
-
-    <p>¿Quién se puede inscribir?</p>
-    <p>Cualquier personaque quiera aprender a programar código y cuente con 4-8 horas disponibles a la semana.</p>
+<footer><small>
     <p>*Menores de edad deberán entrar a las instalaciones acompañados de un adulto</p>
-
-    </section>
+</footer></small>
+   
 
 </body>
 </html>
